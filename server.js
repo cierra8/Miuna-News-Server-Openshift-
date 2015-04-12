@@ -1,4 +1,4 @@
-var	port = process.env.OPENSHIFT_NODEJS_PORT, 
+var	port = 'http://forum.languavel.net:80'
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
 var http = require('http'),
